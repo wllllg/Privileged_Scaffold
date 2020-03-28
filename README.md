@@ -33,9 +33,7 @@ Then the p-value of a scaffold 𝑆<sub>𝑖</sub> for a certain indication 𝐼
   <img src="http://latex.codecogs.com/svg.latex?\\p_{I_{j}}\left(S_{i}\right)=\frac{N_{S_{i}I_{j}}}{N_{S_{i}}}"> 
 </p>
 
-For a certain scaffold 𝑆<sub>𝑖</sub>, we can calculate the Shannon entropy 
-_SE_
-(𝑆<sub>𝑖</sub>) of the scaffold:  
+For a certain scaffold 𝑆<sub>𝑖</sub>, we can calculate the Shannon entropy 𝑆𝐸(𝑆<sub>𝑖</sub>) of the scaffold:  
 
 <p align="center">
   <img src="http://latex.codecogs.com/svg.latex?\\SE\left(S_{i}\right)=-\sum_{j}^{m}p_{l_{j}}\left(S_{i}\right)\ln p_{I_{j}}\left(S_{i}\right)"> 
