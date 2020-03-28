@@ -30,7 +30,14 @@ Define the mapping *g* 𝑔 : 𝑆 → 𝑀 such that the set 𝑔(𝑆<sub>𝑖
 Then the p-value of a scaffold 𝑆<sub>𝑖</sub> for a certain indication 𝐼<sub>j</sub> can be defined as:  
 
 <p align="center">
-  <br/>
   <img src="http://latex.codecogs.com/svg.latex?\\p_{I_{j}}\left(S_{i}\right)=\frac{N_{S_{i}I_{j}}}{N_{S_{i}}}"> 
 </p>
 
+For a certain scaffold 𝑆<sub>𝑖</sub>, we can calculate the Shannon entropy 
+_SE_
+(𝑆<sub>𝑖</sub>) of the scaffold:  
+
+<p align="center">
+  <img src="http://latex.codecogs.com/svg.latex?\\SE\left(S_{i}\right)=-\sum_{j}^{m}p_{l_{j}}\left(S_{i}\right)\ln p_{I_{j}}\left(S_{i}\right)"> 
+</p>
+The p -value is between 0 and 1. If the p-value is 1, then all natural products with the scaffold 𝑆<sub>𝑖</sub> have the indication 𝐼<sub>j</sub>, that is, the scaffold 𝑆<sub>𝑖</sub> is the  privileged scaffold of the indication 𝐼<sub>j</sub>.
