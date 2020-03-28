@@ -16,7 +16,7 @@ The indication prediction model 𝑓 is the mapping from the natural product set
 
 
 Define the mapping 𝑔 : 𝑆 → 𝑀 such that the set 𝑔(𝑆<sub>𝑖</sub>) is all molecules containing a scaffold 𝑆<sub>𝑖</sub>, 𝑁<sub>𝑆<sub>𝑖</sub></sub>=|𝑔(𝑆<sub>𝑖</sub>)| is the number of molecules in this set, and 𝑁<sub>𝑆<sub>𝑖</sub>, 𝐼<sub>𝑗</sub></sub> is the number of molecules that have a certain indication 𝐼<sub>𝑗</sub> and belong to a certain scaffold 𝑆<sub>𝑖</sub>:  
-<div align=center>![f3](https://github.com/wllllg/Privileged_Scaffold/raw/master/img/3_number.svg)
+![f3](https://github.com/wllllg/Privileged_Scaffold/raw/master/img/3_number.svg)
 
 
 Then the p-value of a scaffold 𝑆<sub>𝑖</sub> for a certain indication 𝐼<sub>𝑗</sub> can be defined as:  
