@@ -8,4 +8,4 @@ To identify privileged scaffolds, a multi-task deep learning model was first tra
 **Figure 2. Privileged Scaffolds for Antihypertensitve Identified using p-value.**
 
 
-![](http://latex.codecogs.com/svg.latex?\\I =\left\{I_{1}, I_{2}, \ldots, I_{m}\right\})
+![](http://latex.codecogs.com/gif.latex?\\I =\left\{I_{1}, I_{2}, \ldots, I_{m}\right\})
